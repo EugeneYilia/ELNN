@@ -1,0 +1,173 @@
+"C:\Program Files\Java\jdk-10\bin\java.exe" -ea -Didea.test.cyclic.buffer.size=1048576 "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.2\lib\idea_rt.jar=40716:C:\Program Files\JetBrains\IntelliJ IDEA 2018.2\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\JetBrains\IntelliJ IDEA 2018.2\lib\idea_rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.2\plugins\junit\lib\junit-rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.2\plugins\junit\lib\junit5-rt.jar;C:\Users\58307\ELNN\module\target\test-classes;C:\Users\58307\ELNN\module\target\classes;C:\Users\58307\.m2\repository\com\jstarcraft\core\1.0\core-1.0.jar;C:\Users\58307\.m2\repository\org\aspectj\aspectjweaver\1.8.9\aspectjweaver-1.8.9.jar;C:\Users\58307\.m2\repository\org\springframework\spring-context\5.0.7.RELEASE\spring-context-5.0.7.RELEASE.jar;C:\Users\58307\.m2\repository\org\springframework\spring-beans\5.0.7.RELEASE\spring-beans-5.0.7.RELEASE.jar;C:\Users\58307\.m2\repository\org\springframework\spring-core\5.0.7.RELEASE\spring-core-5.0.7.RELEASE.jar;C:\Users\58307\.m2\repository\org\springframework\spring-jcl\5.0.7.RELEASE\spring-jcl-5.0.7.RELEASE.jar;C:\Users\58307\.m2\repository\org\springframework\spring-expression\5.0.7.RELEASE\spring-expression-5.0.7.RELEASE.jar;C:\Users\58307\.m2\repository\org\springframework\spring-aop\5.0.7.RELEASE\spring-aop-5.0.7.RELEASE.jar;C:\Users\58307\.m2\repository\com\googlecode\concurrentlinkedhashmap\concurrentlinkedhashmap-lru\1.4.2\concurrentlinkedhashmap-lru-1.4.2.jar;C:\Users\58307\.m2\repository\com\sleepycat\je\7.0.6\je-7.0.6.jar;C:\Users\58307\.m2\repository\org\hibernate\hibernate-core\5.3.2.Final\hibernate-core-5.3.2.Final.jar;C:\Users\58307\.m2\repository\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar;C:\Users\58307\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\58307\.m2\repository\net\bytebuddy\byte-buddy\1.8.12\byte-buddy-1.8.12.jar;C:\Users\58307\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\58307\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\58307\.m2\repository\org\jboss\jandex\2.0.5.Final\jandex-2.0.5.Final.jar;C:\Users\58307\.m2\repository\com\fasterxml\classmate\1.3.4\classmate-1.3.4.jar;C:\Users\58307\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\58307\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\58307\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.0.4.Final\hibernate-commons-annotations-5.0.4.Final.jar;C:\Users\58307\.m2\repository\org\hibernate\hibernate-java8\5.3.2.Final\hibernate-java8-5.3.2.Final.jar;C:\Users\58307\.m2\repository\org\springframework\spring-orm\5.0.7.RELEASE\spring-orm-5.0.7.RELEASE.jar;C:\Users\58307\.m2\repository\org\springframework\spring-jdbc\5.0.7.RELEASE\spring-jdbc-5.0.7.RELEASE.jar;C:\Users\58307\.m2\repository\org\springframework\spring-tx\5.0.7.RELEASE\spring-tx-5.0.7.RELEASE.jar;C:\Users\58307\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\58307\.m2\repository\commons-beanutils\commons-beanutils\1.9.3\commons-beanutils-1.9.3.jar;C:\Users\58307\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\58307\.m2\repository\org\apache\commons\commons-csv\1.4\commons-csv-1.4.jar;C:\Users\58307\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.4\jackson-core-2.8.4.jar;C:\Users\58307\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.4\jackson-databind-2.8.4.jar;C:\Users\58307\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\Users\58307\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.8.8\jackson-datatype-jsr310-2.8.8.jar;C:\Users\58307\.m2\repository\com\esotericsoftware\kryo\4.0.1\kryo-4.0.1.jar;C:\Users\58307\.m2\repository\com\esotericsoftware\reflectasm\1.11.3\reflectasm-1.11.3.jar;C:\Users\58307\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\58307\.m2\repository\com\esotericsoftware\minlog\1.3.0\minlog-1.3.0.jar;C:\Users\58307\.m2\repository\org\objenesis\objenesis\2.5.1\objenesis-2.5.1.jar;C:\Users\58307\.m2\repository\io\netty\netty-all\4.1.25.Final\netty-all-4.1.25.Final.jar;C:\Users\58307\.m2\repository\com\hazelcast\hazelcast\3.10.4\hazelcast-3.10.4.jar;C:\Users\58307\.m2\repository\org\redisson\redisson\3.7.2\redisson-3.7.2.jar;C:\Users\58307\.m2\repository\io\netty\netty-common\4.1.25.Final\netty-common-4.1.25.Final.jar;C:\Users\58307\.m2\repository\io\netty\netty-codec\4.1.25.Final\netty-codec-4.1.25.Final.jar;C:\Users\58307\.m2\repository\io\netty\netty-buffer\4.1.25.Final\netty-buffer-4.1.25.Final.jar;C:\Users\58307\.m2\repository\io\netty\netty-transport\4.1.25.Final\netty-transport-4.1.25.Final.jar;C:\Users\58307\.m2\repository\io\netty\netty-resolver\4.1.25.Final\netty-resolver-4.1.25.Final.jar;C:\Users\58307\.m2\repository\io\netty\netty-resolver-dns\4.1.25.Final\netty-resolver-dns-4.1.25.Final.jar;C:\Users\58307\.m2\repository\io\netty\netty-codec-dns\4.1.25.Final\netty-codec-dns-4.1.25.Final.jar;C:\Users\58307\.m2\repository\io\netty\netty-handler\4.1.25.Final\netty-handler-4.1.25.Final.jar;C:\Users\58307\.m2\repository\javax\cache\cache-api\1.0.0\cache-api-1.0.0.jar;C:\Users\58307\.m2\repository\io\projectreactor\reactor-core\3.1.7.RELEASE\reactor-core-3.1.7.RELEASE.jar;C:\Users\58307\.m2\repository\org\reactivestreams\reactive-streams\1.0.2\reactive-streams-1.0.2.jar;C:\Users\58307\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.7.9\jackson-dataformat-yaml-2.7.9.jar;C:\Users\58307\.m2\repository\org\jodd\jodd-bean\3.7.1\jodd-bean-3.7.1.jar;C:\Users\58307\.m2\repository\org\jodd\jodd-core\3.7.1\jodd-core-3.7.1.jar;C:\Users\58307\.m2\repository\redis\clients\jedis\2.9.0\jedis-2.9.0.jar;C:\Users\58307\.m2\repository\org\apache\commons\commons-pool2\2.4.2\commons-pool2-2.4.2.jar;C:\Users\58307\.m2\repository\org\apache\curator\curator-framework\4.0.1\curator-framework-4.0.1.jar;C:\Users\58307\.m2\repository\org\apache\curator\curator-client\4.0.1\curator-client-4.0.1.jar;C:\Users\58307\.m2\repository\org\apache\zookeeper\zookeeper\3.5.3-beta\zookeeper-3.5.3-beta.jar;C:\Users\58307\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;C:\Users\58307\.m2\repository\io\netty\netty\3.10.5.Final\netty-3.10.5.Final.jar;C:\Users\58307\.m2\repository\org\codehaus\groovy\groovy-all\2.4.15\groovy-all-2.4.15.jar;C:\Users\58307\.m2\repository\org\mozilla\rhino\1.7.10\rhino-1.7.10.jar;C:\Users\58307\.m2\repository\org\luaj\luaj-jse\3.0.1\luaj-jse-3.0.1.jar;C:\Users\58307\.m2\repository\org\mvel\mvel2\2.4.0.Final\mvel2-2.4.0.Final.jar;C:\Users\58307\.m2\repository\org\apache\poi\poi\3.15\poi-3.15.jar;C:\Users\58307\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\58307\.m2\repository\org\apache\poi\poi-ooxml\3.15\poi-ooxml-3.15.jar;C:\Users\58307\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.15\poi-ooxml-schemas-3.15.jar;C:\Users\58307\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\58307\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\58307\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\58307\.m2\repository\it\unimi\dsi\fastutil\8.2.1\fastutil-8.2.1.jar;C:\Users\58307\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\58307\.m2\repository\com\cronutils\cron-utils\5.0.5\cron-utils-5.0.5.jar;C:\Users\58307\.m2\repository\org\apache\lucene\lucene-core\6.3.0\lucene-core-6.3.0.jar;C:\Users\58307\.m2\repository\org\apache\lucene\lucene-analyzers-common\6.3.0\lucene-analyzers-common-6.3.0.jar;C:\Users\58307\.m2\repository\org\apache\lucene\lucene-queryparser\6.3.0\lucene-queryparser-6.3.0.jar;C:\Users\58307\.m2\repository\org\apache\lucene\lucene-sandbox\6.3.0\lucene-sandbox-6.3.0.jar;C:\Users\58307\.m2\repository\org\apache\lucene\lucene-queries\6.3.0\lucene-queries-6.3.0.jar;C:\Users\58307\.m2\repository\org\apache\lucene\lucene-highlighter\6.3.0\lucene-highlighter-6.3.0.jar;C:\Users\58307\.m2\repository\org\apache\lucene\lucene-join\6.3.0\lucene-join-6.3.0.jar;C:\Users\58307\.m2\repository\org\apache\lucene\lucene-memory\6.3.0\lucene-memory-6.3.0.jar;C:\Users\58307\.m2\repository\org\apache\lucene\lucene-analyzers-smartcn\6.3.0\lucene-analyzers-smartcn-6.3.0.jar;C:\Users\58307\.m2\repository\com\google\guava\guava\20.0\guava-20.0.jar;C:\Users\58307\.m2\repository\ch\obermuhlner\big-math\2.0.1\big-math-2.0.1.jar;C:\Users\58307\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\58307\.m2\repository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar;C:\Users\58307\.m2\repository\org\deeplearning4j\deeplearning4j-core\1.0.0-alpha\deeplearning4j-core-1.0.0-alpha.jar;C:\Users\58307\.m2\repository\org\deeplearning4j\deeplearning4j-tsne\1.0.0-alpha\deeplearning4j-tsne-1.0.0-alpha.jar;C:\Users\58307\.m2\repository\org\projectlombok\lombok\1.16.20\lombok-1.16.20.jar;C:\Users\58307\.m2\repository\org\deeplearning4j\deeplearning4j-datasets\1.0.0-alpha\deeplearning4j-datasets-1.0.0-alpha.jar;C:\Users\58307\.m2\repository\org\deeplearning4j\deeplearning4j-datavec-iterators\1.0.0-alpha\deeplearning4j-datavec-iterators-1.0.0-alpha.jar;C:\Users\58307\.m2\repository\org\deeplearning4j\nearestneighbor-core\1.0.0-alpha\nearestneighbor-core-1.0.0-alpha.jar;C:\Users\58307\.m2\repository\org\threadly\threadly\4.10.0\threadly-4.10.0.jar;C:\Users\58307\.m2\repository\org\deeplearning4j\deeplearning4j-modelimport\1.0.0-alpha\deeplearning4j-modelimport-1.0.0-alpha.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp\1.4.1\javacpp-1.4.1.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\hdf5-platform\1.10.1-1.4.1\hdf5-platform-1.10.1-1.4.1.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\hdf5\1.10.1-1.4.1\hdf5-1.10.1-1.4.1.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\hdf5\1.10.1-1.4.1\hdf5-1.10.1-1.4.1-linux-x86.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\hdf5\1.10.1-1.4.1\hdf5-1.10.1-1.4.1-linux-x86_64.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\hdf5\1.10.1-1.4.1\hdf5-1.10.1-1.4.1-linux-ppc64le.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\hdf5\1.10.1-1.4.1\hdf5-1.10.1-1.4.1-macosx-x86_64.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\hdf5\1.10.1-1.4.1\hdf5-1.10.1-1.4.1-windows-x86.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\hdf5\1.10.1-1.4.1\hdf5-1.10.1-1.4.1-windows-x86_64.jar;C:\Users\58307\.m2\repository\org\deeplearning4j\deeplearning4j-nn\1.0.0-alpha\deeplearning4j-nn-1.0.0-alpha.jar;C:\Users\58307\.m2\repository\org\deeplearning4j\deeplearning4j-utility-iterators\1.0.0-alpha\deeplearning4j-utility-iterators-1.0.0-alpha.jar;C:\Users\58307\.m2\repository\org\deeplearning4j\deeplearning4j-util\1.0.0-alpha\deeplearning4j-util-1.0.0-alpha.jar;C:\Users\58307\.m2\repository\org\nd4j\nd4j-common\1.0.0-alpha\nd4j-common-1.0.0-alpha.jar;C:\Users\58307\.m2\repository\org\nd4j\nd4j-jackson\1.0.0-alpha\nd4j-jackson-1.0.0-alpha.jar;C:\Users\58307\.m2\repository\org\nd4j\nd4j-base64\1.0.0-alpha\nd4j-base64-1.0.0-alpha.jar;C:\Users\58307\.m2\repository\commons-net\commons-net\3.1\commons-net-3.1.jar;C:\Users\58307\.m2\repository\org\apache\commons\commons-compress\1.8\commons-compress-1.8.jar;C:\Users\58307\.m2\repository\org\tukaani\xz\1.5\xz-1.5.jar;C:\Users\58307\.m2\repository\org\nd4j\nd4j-api\1.0.0-alpha\nd4j-api-1.0.0-alpha.jar;C:\Users\58307\.m2\repository\com\vlkan\flatbuffers\1.2.0-3f79e055\flatbuffers-1.2.0-3f79e055.jar;C:\Users\58307\.m2\repository\com\github\os72\protobuf-java-shaded-351\0.9\protobuf-java-shaded-351-0.9.jar;C:\Users\58307\.m2\repository\com\github\os72\protobuf-java-util-shaded-351\0.9\protobuf-java-util-shaded-351-0.9.jar;C:\Users\58307\.m2\repository\com\google\code\gson\gson\2.7\gson-2.7.jar;C:\Users\58307\.m2\repository\uk\com\robust-it\cloning\1.9.3\cloning-1.9.3.jar;C:\Users\58307\.m2\repository\org\nd4j\nd4j-buffer\1.0.0-alpha\nd4j-buffer-1.0.0-alpha.jar;C:\Users\58307\.m2\repository\org\nd4j\nd4j-context\1.0.0-alpha\nd4j-context-1.0.0-alpha.jar;C:\Users\58307\.m2\repository\net\ericaro\neoitertools\1.0.0\neoitertools-1.0.0.jar;C:\Users\58307\.m2\repository\org\reflections\reflections\0.9.10\reflections-0.9.10.jar;C:\Users\58307\.m2\repository\org\nd4j\jackson\1.0.0-alpha\jackson-1.0.0-alpha.jar;C:\Users\58307\.m2\repository\org\yaml\snakeyaml\1.12\snakeyaml-1.12.jar;C:\Users\58307\.m2\repository\org\codehaus\woodstox\stax2-api\3.1.4\stax2-api-3.1.4.jar;C:\Users\58307\.m2\repository\joda-time\joda-time\2.2\joda-time-2.2.jar;C:\Users\58307\.m2\repository\org\datavec\datavec-api\1.0.0-alpha\datavec-api-1.0.0-alpha.jar;C:\Users\58307\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\58307\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\58307\.m2\repository\com\clearspring\analytics\stream\2.7.0\stream-2.7.0.jar;C:\Users\58307\.m2\repository\net\sf\opencsv\opencsv\2.3\opencsv-2.3.jar;C:\Users\58307\.m2\repository\com\tdunning\t-digest\3.2\t-digest-3.2.jar;C:\Users\58307\.m2\repository\org\eclipse\collections\eclipse-collections\9.1.0\eclipse-collections-9.1.0.jar;C:\Users\58307\.m2\repository\org\eclipse\collections\eclipse-collections-api\9.1.0\eclipse-collections-api-9.1.0.jar;C:\Users\58307\.m2\repository\org\datavec\datavec-data-image\1.0.0-alpha\datavec-data-image-1.0.0-alpha.jar;C:\Users\58307\.m2\repository\com\github\jai-imageio\jai-imageio-core\1.3.0\jai-imageio-core-1.3.0.jar;C:\Users\58307\.m2\repository\com\twelvemonkeys\imageio\imageio-jpeg\3.1.1\imageio-jpeg-3.1.1.jar;C:\Users\58307\.m2\repository\com\twelvemonkeys\imageio\imageio-core\3.1.1\imageio-core-3.1.1.jar;C:\Users\58307\.m2\repository\com\twelvemonkeys\imageio\imageio-metadata\3.1.1\imageio-metadata-3.1.1.jar;C:\Users\58307\.m2\repository\com\twelvemonkeys\common\common-lang\3.1.1\common-lang-3.1.1.jar;C:\Users\58307\.m2\repository\com\twelvemonkeys\common\common-io\3.1.1\common-io-3.1.1.jar;C:\Users\58307\.m2\repository\com\twelvemonkeys\common\common-image\3.1.1\common-image-3.1.1.jar;C:\Users\58307\.m2\repository\com\twelvemonkeys\imageio\imageio-tiff\3.1.1\imageio-tiff-3.1.1.jar;C:\Users\58307\.m2\repository\com\twelvemonkeys\imageio\imageio-psd\3.1.1\imageio-psd-3.1.1.jar;C:\Users\58307\.m2\repository\com\twelvemonkeys\imageio\imageio-bmp\3.1.1\imageio-bmp-3.1.1.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacv\1.4.1\javacv-1.4.1.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\opencv\3.4.1-1.4.1\opencv-3.4.1-1.4.1.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\ffmpeg\3.4.2-1.4.1\ffmpeg-3.4.2-1.4.1.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\flycapture\2.11.3.121-1.4.1\flycapture-2.11.3.121-1.4.1.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\libdc1394\2.2.5-1.4.1\libdc1394-2.2.5-1.4.1.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\libfreenect\0.5.3-1.4.1\libfreenect-0.5.3-1.4.1.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\libfreenect2\0.2.0-1.4.1\libfreenect2-0.2.0-1.4.1.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\librealsense\1.12.1-1.4.1\librealsense-1.12.1-1.4.1.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\videoinput\0.200-1.4.1\videoinput-0.200-1.4.1.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\artoolkitplus\2.3.1-1.4.1\artoolkitplus-2.3.1-1.4.1.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\flandmark\1.07-1.4.1\flandmark-1.07-1.4.1.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\opencv-platform\3.4.1-1.4.1\opencv-platform-3.4.1-1.4.1.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\opencv\3.4.1-1.4.1\opencv-3.4.1-1.4.1-android-arm.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\opencv\3.4.1-1.4.1\opencv-3.4.1-1.4.1-android-arm64.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\opencv\3.4.1-1.4.1\opencv-3.4.1-1.4.1-android-x86.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\opencv\3.4.1-1.4.1\opencv-3.4.1-1.4.1-android-x86_64.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\opencv\3.4.1-1.4.1\opencv-3.4.1-1.4.1-ios-arm64.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\opencv\3.4.1-1.4.1\opencv-3.4.1-1.4.1-ios-x86_64.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\opencv\3.4.1-1.4.1\opencv-3.4.1-1.4.1-linux-x86.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\opencv\3.4.1-1.4.1\opencv-3.4.1-1.4.1-linux-x86_64.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\opencv\3.4.1-1.4.1\opencv-3.4.1-1.4.1-linux-armhf.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\opencv\3.4.1-1.4.1\opencv-3.4.1-1.4.1-linux-ppc64le.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\opencv\3.4.1-1.4.1\opencv-3.4.1-1.4.1-macosx-x86_64.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\opencv\3.4.1-1.4.1\opencv-3.4.1-1.4.1-windows-x86.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\opencv\3.4.1-1.4.1\opencv-3.4.1-1.4.1-windows-x86_64.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\leptonica-platform\1.75.3-1.4.1\leptonica-platform-1.75.3-1.4.1.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\leptonica\1.75.3-1.4.1\leptonica-1.75.3-1.4.1.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\leptonica\1.75.3-1.4.1\leptonica-1.75.3-1.4.1-android-arm.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\leptonica\1.75.3-1.4.1\leptonica-1.75.3-1.4.1-android-arm64.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\leptonica\1.75.3-1.4.1\leptonica-1.75.3-1.4.1-android-x86.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\leptonica\1.75.3-1.4.1\leptonica-1.75.3-1.4.1-android-x86_64.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\leptonica\1.75.3-1.4.1\leptonica-1.75.3-1.4.1-linux-x86.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\leptonica\1.75.3-1.4.1\leptonica-1.75.3-1.4.1-linux-x86_64.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\leptonica\1.75.3-1.4.1\leptonica-1.75.3-1.4.1-linux-armhf.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\leptonica\1.75.3-1.4.1\leptonica-1.75.3-1.4.1-linux-ppc64le.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\leptonica\1.75.3-1.4.1\leptonica-1.75.3-1.4.1-macosx-x86_64.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\leptonica\1.75.3-1.4.1\leptonica-1.75.3-1.4.1-windows-x86.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\leptonica\1.75.3-1.4.1\leptonica-1.75.3-1.4.1-windows-x86_64.jar;C:\Users\58307\.m2\repository\org\deeplearning4j\deeplearning4j-ui-components\1.0.0-alpha\deeplearning4j-ui-components-1.0.0-alpha.jar;C:\Users\58307\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\58307\.m2\repository\org\nd4j\nd4j-native-platform\1.0.0-alpha\nd4j-native-platform-1.0.0-alpha.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\openblas-platform\0.2.20-1.4.1\openblas-platform-0.2.20-1.4.1.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\openblas\0.2.20-1.4.1\openblas-0.2.20-1.4.1.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\openblas\0.2.20-1.4.1\openblas-0.2.20-1.4.1-android-arm.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\openblas\0.2.20-1.4.1\openblas-0.2.20-1.4.1-android-arm64.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\openblas\0.2.20-1.4.1\openblas-0.2.20-1.4.1-android-x86.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\openblas\0.2.20-1.4.1\openblas-0.2.20-1.4.1-android-x86_64.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\openblas\0.2.20-1.4.1\openblas-0.2.20-1.4.1-ios-arm64.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\openblas\0.2.20-1.4.1\openblas-0.2.20-1.4.1-ios-x86_64.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\openblas\0.2.20-1.4.1\openblas-0.2.20-1.4.1-linux-x86.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\openblas\0.2.20-1.4.1\openblas-0.2.20-1.4.1-linux-x86_64.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\openblas\0.2.20-1.4.1\openblas-0.2.20-1.4.1-linux-armhf.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\openblas\0.2.20-1.4.1\openblas-0.2.20-1.4.1-linux-ppc64le.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\openblas\0.2.20-1.4.1\openblas-0.2.20-1.4.1-macosx-x86_64.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\openblas\0.2.20-1.4.1\openblas-0.2.20-1.4.1-windows-x86.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\openblas\0.2.20-1.4.1\openblas-0.2.20-1.4.1-windows-x86_64.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\mkl-platform\2018.1-1.4.1\mkl-platform-2018.1-1.4.1.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\mkl\2018.1-1.4.1\mkl-2018.1-1.4.1.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\mkl\2018.1-1.4.1\mkl-2018.1-1.4.1-linux-x86.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\mkl\2018.1-1.4.1\mkl-2018.1-1.4.1-linux-x86_64.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\mkl\2018.1-1.4.1\mkl-2018.1-1.4.1-macosx-x86_64.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\mkl\2018.1-1.4.1\mkl-2018.1-1.4.1-windows-x86.jar;C:\Users\58307\.m2\repository\org\bytedeco\javacpp-presets\mkl\2018.1-1.4.1\mkl-2018.1-1.4.1-windows-x86_64.jar;C:\Users\58307\.m2\repository\org\nd4j\nd4j-native\1.0.0-alpha\nd4j-native-1.0.0-alpha.jar;C:\Users\58307\.m2\repository\org\nd4j\nd4j-native-api\1.0.0-alpha\nd4j-native-api-1.0.0-alpha.jar;C:\Users\58307\.m2\repository\org\nd4j\nd4j-native\1.0.0-alpha\nd4j-native-1.0.0-alpha-android-arm.jar;C:\Users\58307\.m2\repository\org\nd4j\nd4j-native\1.0.0-alpha\nd4j-native-1.0.0-alpha-android-arm64.jar;C:\Users\58307\.m2\repository\org\nd4j\nd4j-native\1.0.0-alpha\nd4j-native-1.0.0-alpha-android-x86.jar;C:\Users\58307\.m2\repository\org\nd4j\nd4j-native\1.0.0-alpha\nd4j-native-1.0.0-alpha-android-x86_64.jar;C:\Users\58307\.m2\repository\org\nd4j\nd4j-native\1.0.0-alpha\nd4j-native-1.0.0-alpha-ios-arm64.jar;C:\Users\58307\.m2\repository\org\nd4j\nd4j-native\1.0.0-alpha\nd4j-native-1.0.0-alpha-ios-x86_64.jar;C:\Users\58307\.m2\repository\org\nd4j\nd4j-native\1.0.0-alpha\nd4j-native-1.0.0-alpha-linux-x86_64.jar;C:\Users\58307\.m2\repository\org\nd4j\nd4j-native\1.0.0-alpha\nd4j-native-1.0.0-alpha-macosx-x86_64.jar;C:\Users\58307\.m2\repository\org\nd4j\nd4j-native\1.0.0-alpha\nd4j-native-1.0.0-alpha-windows-x86_64.jar;C:\Users\58307\.m2\repository\org\nd4j\nd4j-native\1.0.0-alpha\nd4j-native-1.0.0-alpha-linux-ppc64le.jar;C:\Users\58307\.m2\repository\nz\ac\waikato\cms\weka\weka-stable\3.8.2\weka-stable-3.8.2.jar;C:\Users\58307\.m2\repository\nz\ac\waikato\cms\weka\thirdparty\java-cup-11b\2015.03.26\java-cup-11b-2015.03.26.jar;C:\Users\58307\.m2\repository\nz\ac\waikato\cms\weka\thirdparty\java-cup-11b-runtime\2015.03.26\java-cup-11b-runtime-2015.03.26.jar;C:\Users\58307\.m2\repository\nz\ac\waikato\cms\weka\thirdparty\bounce\0.18\bounce-0.18.jar;C:\Users\58307\.m2\repository\com\googlecode\matrix-toolkits-java\mtj\1.0.4\mtj-1.0.4.jar;C:\Users\58307\.m2\repository\com\github\fommil\netlib\netlib-native_ref-osx-x86_64\1.1\netlib-native_ref-osx-x86_64-1.1-natives.jar;C:\Users\58307\.m2\repository\com\github\fommil\netlib\native_ref-java\1.1\native_ref-java-1.1.jar;C:\Users\58307\.m2\repository\com\github\fommil\jniloader\1.1\jniloader-1.1.jar;C:\Users\58307\.m2\repository\com\github\fommil\netlib\netlib-native_ref-linux-x86_64\1.1\netlib-native_ref-linux-x86_64-1.1-natives.jar;C:\Users\58307\.m2\repository\com\github\fommil\netlib\netlib-native_ref-linux-i686\1.1\netlib-native_ref-linux-i686-1.1-natives.jar;C:\Users\58307\.m2\repository\com\github\fommil\netlib\netlib-native_ref-win-x86_64\1.1\netlib-native_ref-win-x86_64-1.1-natives.jar;C:\Users\58307\.m2\repository\com\github\fommil\netlib\netlib-native_ref-win-i686\1.1\netlib-native_ref-win-i686-1.1-natives.jar;C:\Users\58307\.m2\repository\com\github\fommil\netlib\netlib-native_ref-linux-armhf\1.1\netlib-native_ref-linux-armhf-1.1-natives.jar;C:\Users\58307\.m2\repository\com\github\fommil\netlib\netlib-native_system-osx-x86_64\1.1\netlib-native_system-osx-x86_64-1.1-natives.jar;C:\Users\58307\.m2\repository\com\github\fommil\netlib\native_system-java\1.1\native_system-java-1.1.jar;C:\Users\58307\.m2\repository\com\github\fommil\netlib\netlib-native_system-linux-x86_64\1.1\netlib-native_system-linux-x86_64-1.1-natives.jar;C:\Users\58307\.m2\repository\com\github\fommil\netlib\netlib-native_system-linux-i686\1.1\netlib-native_system-linux-i686-1.1-natives.jar;C:\Users\58307\.m2\repository\com\github\fommil\netlib\netlib-native_system-linux-armhf\1.1\netlib-native_system-linux-armhf-1.1-natives.jar;C:\Users\58307\.m2\repository\com\github\fommil\netlib\netlib-native_system-win-x86_64\1.1\netlib-native_system-win-x86_64-1.1-natives.jar;C:\Users\58307\.m2\repository\com\github\fommil\netlib\netlib-native_system-win-i686\1.1\netlib-native_system-win-i686-1.1-natives.jar;C:\Users\58307\.m2\repository\net\sourceforge\f2j\arpack_combined_all\0.1\arpack_combined_all-0.1.jar;C:\Users\58307\.m2\repository\com\googlecode\netlib-java\netlib-java\1.1\netlib-java-1.1.jar;C:\Users\58307\.m2\repository\com\github\fommil\netlib\core\1.1\core-1.1.jar;C:\Users\58307\.m2\repository\net\sourceforge\jdistlib\jdistlib\0.4.5\jdistlib-0.4.5.jar;C:\Users\58307\.m2\repository\com\github\wendykierp\JTransforms\3.1\JTransforms-3.1.jar;C:\Users\58307\.m2\repository\pl\edu\icm\JLargeArrays\1.5\JLargeArrays-1.5.jar;C:\Users\58307\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\58307\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\58307\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\58307\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;C:\Users\58307\.m2\repository\org\apache\logging\log4j\log4j-core\2.8.2\log4j-core-2.8.2.jar;C:\Users\58307\.m2\repository\org\apache\logging\log4j\log4j-api\2.8.2\log4j-api-2.8.2.jar;C:\Users\58307\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.8.2\log4j-slf4j-impl-2.8.2.jar;C:\Users\58307\.m2\repository\org\apache\logging\log4j\log4j-jcl\2.8.2\log4j-jcl-2.8.2.jar;C:\Users\58307\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar" com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 -junit4 com.jstarcraft.module.neuralnetwork.GraphTestCase
+21:44:03 [main] INFO (Nd4jBackend.java:194) - Loaded [CpuBackend] backend
+21:44:04 [main] WARN (Reflections.java:181) - given scan urls are empty. set urls in the configuration
+21:44:11 [main] INFO (NativeOpsHolder.java:49) - Number of threads used for NativeOps: 2
+21:44:16 [main] INFO (Nd4jBlas.java:37) - Number of threads used for BLAS: 2
+21:44:16 [main] INFO (DefaultOpExecutioner.java:605) - Backend used: [CPU]; OS: [Windows 10]
+21:44:16 [main] INFO (DefaultOpExecutioner.java:606) - Cores: [4]; Memory: [1.0GB];
+21:44:16 [main] INFO (DefaultOpExecutioner.java:607) - Blas vendor: [OPENBLAS]
+21:44:19 [com.jstarcraft.module.environment.CpuEnvironmentContext:0] WARN (Reflections.java:181) - given scan urls are empty. set urls in the configuration
+21:44:19 [com.jstarcraft.module.environment.CpuEnvironmentContext:0] INFO (OneTimeLogger.java:55) - Starting ComputationGraph with WorkspaceModes set to [training: SEPARATE; inference: SEPARATE]
+21:44:20 [com.jstarcraft.module.environment.CpuEnvironmentContext:0] INFO (Reflections.java:229) - Reflections took 1027 ms to scan 15 urls, producing 468 keys and 2930 values 
+27.53995311823802
+23.571841237632526
+20.445703510060397
+17.798150522134613
+15.50429018276038
+13.4645973648507
+11.63547327407112
+9.997326645676301
+8.535121843796613
+7.241300670244901
+6.117376131613389
+5.1468174788782886
+4.320152967408091
+3.625039696824355
+3.047365912331035
+2.5726414111372686
+2.1856689681814236
+1.872042599984611
+1.6191726290663642
+1.41641835292145
+1.252938663723
+1.1207609302771697
+1.013403573635989
+0.9260118680414152
+0.8543015923560363
+0.7952894359239511
+0.7462539362918217
+0.7053995638279243
+0.6710717808638955
+0.6419541518409564
+0.6172440322740909
+0.5960000725912427
+0.5777571625925797
+0.5634662665143553
+0.5516270917858539
+0.540576902384658
+0.5312809871455455
+0.5228931024309438
+0.5153760199879671
+0.5085780249768896
+0.5023077716216959
+0.4979289463375478
+0.4936746617287904
+0.4897133868676361
+0.48611868881630177
+0.48205450839784325
+0.4789477959659951
+0.47591545476514535
+0.4730108060332965
+0.46961958824726463
+0.4667415798263582
+0.46456513573851427
+0.4626911428593961
+0.46059726005714074
+0.45844420324287344
+0.45685278104505417
+0.4552096814624417
+0.45322670185166647
+0.4516928800282651
+0.4497739321543358
+0.4484161912735167
+0.4464976879800033
+0.4452325917315208
+0.4435600191557465
+0.44234804219056256
+0.4407277355631812
+0.4403693117239513
+0.4395628816525929
+0.4391999075129213
+0.4382272493059787
+0.43772055163300816
+0.43670062683164934
+0.4361623139494027
+0.43459744133634504
+0.4340069741065805
+0.4331981705160407
+0.43260237805853174
+0.4317981297917215
+0.43118832203044527
+0.4304331560012695
+0.4299429085941802
+0.42904514461551296
+0.4286257589717559
+0.42770889407256324
+0.4273395667097919
+0.4265763596580358
+0.42540272046910366
+0.4247521155280906
+0.42400747211134016
+0.4237774868137901
+0.4235308693105314
+0.42269231122532275
+0.42208788823863613
+0.42168805549763216
+0.4214446471625977
+0.4207967130504736
+0.42002520041798724
+0.4191485582545808
+0.41850100774581217
+0.4180188892904331
+[[    4.5103], 
+ [    4.3825], 
+ [    4.5103], 
+ [    4.2083], 
+ [    4.4514]]
+23.550294876098633
+17.780067443847656
+13.448392868041992
+9.981987953186035
+7.226186275482178
+5.131588935852051
+3.609593152999878
+2.557035207748413
+1.8564233779907227
+1.4009575843811035
+1.105611801147461
+0.9112923741340637
+0.781079888343811
+0.6917470693588257
+0.6288794875144958
+0.5835047364234924
+0.5515385270118713
+0.5291959047317505
+0.5120309591293335
+0.4982040822505951
+0.48801326751708984
+0.480224609375
+0.4729613661766052
+0.46718859672546387
+0.46123042702674866
+0.4564884305000305
+0.4528067708015442
+0.44932395219802856
+0.4459362030029297
+0.4427003264427185
+0.4396207928657532
+0.43686145544052124
+0.43418970704078674
+0.4331703782081604
+0.4319637417793274
+0.430551141500473
+0.4285486340522766
+0.4272383749485016
+0.4259149432182312
+0.42461663484573364
+0.4232850968837738
+0.4219962954521179
+0.42090263962745667
+0.41911014914512634
+0.4181608259677887
+0.4170936048030853
+0.41610187292099
+0.41521725058555603
+0.41357070207595825
+0.41243910789489746
+[[    4.5103], 
+ [    4.3825], 
+ [    4.5103], 
+ [    4.2083], 
+ [    4.4514]]
+
+Process finished with exit code 0
